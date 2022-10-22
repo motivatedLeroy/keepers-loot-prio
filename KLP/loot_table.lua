@@ -1,4 +1,4 @@
-KLP_version = 1
+KLP_version = 2
 Run_loot_table = {
 ----- Ewü  2022/02/10 P2 Loot
 ----- Lome 2022/02/11 P3 Loot
