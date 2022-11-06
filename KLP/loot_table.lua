@@ -191,7 +191,7 @@ Run_loot_table = {
 {["loot_id"] = "40278", ["loot_name"] = "Gridle of Chivaltry", ["prio"] = "Prio: Frost/Unholy/Ret",},
 {["loot_id"] = "40241", ["loot_name"] = "Girdle of Unity", ["prio"] = "Prio: Heal Pala",},
 {["loot_id"] = "40317", ["loot_name"] = "Gridle of Razuvious", ["prio"] = "Prio: Fury > Frost > Ret > Arms > Unholy",},
-{["loot_id"] = "40402", ["loot_name"] = "Last Laugh", ["prio"] = "Prio: Prot Pala > Blood > Unholy",},
+{["loot_id"] = "40402", ["loot_name"] = "Last Laugh", ["prio"] = "Prio: Prot Pala > Unholy > Blood",},
 {["loot_id"] = "39714", ["loot_name"] = "Webbed Death", ["prio"] = "Prio: Rogue",},
 {["loot_id"] = "40281", ["loot_name"] = "Twilight Mist", ["prio"] = "Prio: Rogue",},
 {["loot_id"] = "40368", ["loot_name"] = "Murder", ["prio"] = "Prio: Rogue",},
