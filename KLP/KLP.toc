@@ -1,4 +1,4 @@
-## Interface: 20503
+## Interface: 30403
 ## Title: Keepers Loot Priority
 ## Notes: Prio Tooltips for keepers list
 ## Author: Sucuk (Prepared), modified for keepers-of-honor-Lakeshire
