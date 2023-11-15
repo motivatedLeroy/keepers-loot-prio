@@ -1,10 +1,11 @@
-KLP_version = 6
+KLP_version = 7
 Run_loot_table = {
 ----- Ewü  2022/02/10 P2 Loot
 ----- Lome 2022/02/11 P3 Loot
 ----- Ewü  2022/05/29 P5 Loot
 ----- Lome/Brot 2023/01/19 WotLK P2 Loot
 ----- Ewü/Lome 2023/10/15 WotLK P4 Loot
+----- Ewü/Lome 2023/11/15 WotLK P4 Loot Adjustments
 -----SSC
 -----Trashloot
 {["loot_id"] = "40194", ["loot_name"] = "Blanketing Robes of Snow", ["prio"] = "Prio: Diszi > Resto Druid",},
@@ -655,8 +656,8 @@ Run_loot_table = {
 {["loot_id"] = "50415", ["loot_name"] = "Bryntroll, the Bone Arbiter", ["prio"] = "Ret,BDK > Fury",},
 {["loot_id"] = "50613", ["loot_name"] = "Crushing Coldwraith Belt", ["prio"] = "Mage,Lock,Shadow > Ele,Boomy > Healer",},
 {["loot_id"] = "49978", ["loot_name"] = "Crushing Coldwraith Belt", ["prio"] = "Mage,Lock,Shadow > Ele,Boomy > Healer",},
-{["loot_id"] = "50608", ["loot_name"] = "Frozen Bonespike", ["prio"] = "FFA",},
-{["loot_id"] = "49968", ["loot_name"] = "Frozen Bonespike", ["prio"] = "FFA",},
+{["loot_id"] = "50608", ["loot_name"] = "Frozen Bonespike", ["prio"] = "Disc",},
+{["loot_id"] = "49968", ["loot_name"] = "Frozen Bonespike", ["prio"] = "Disc",},
 {["loot_id"] = "50607", ["loot_name"] = "Frostbitten Fur Boots", ["prio"] = "Feral > Rogue,Ret,MM > SV",},
 {["loot_id"] = "49950", ["loot_name"] = "Frostbitten Fur Boots", ["prio"] = "Feral > Rogue,Ret,MM > SV",},
 {["loot_id"] = "50615", ["loot_name"] = "Handguards of Winter's Respite", ["prio"] = "FFA",},
@@ -705,8 +706,8 @@ Run_loot_table = {
 {["loot_id"] = "49986", ["loot_name"] = "Broken Ram Skull Helm", ["prio"] = "LK Tank",},
 {["loot_id"] = "50648", ["loot_name"] = "Nibelung", ["prio"] = "Boomy > Ele",},
 {["loot_id"] = "49992", ["loot_name"] = "Nibelung", ["prio"] = "Boomy > Ele",},
-{["loot_id"] = "50644", ["loot_name"] = "Ring of Maddening Whispers", ["prio"] = "FFA",},
-{["loot_id"] = "49990", ["loot_name"] = "Ring of Maddening Whispers", ["prio"] = "FFA",},
+{["loot_id"] = "50644", ["loot_name"] = "Ring of Maddening Whispers", ["prio"] = "Disc",},
+{["loot_id"] = "49990", ["loot_name"] = "Ring of Maddening Whispers", ["prio"] = "Disc",},
 {["loot_id"] = "50642", ["loot_name"] = "Juggernaut Band", ["prio"] = "LK Tank",},
 {["loot_id"] = "49985", ["loot_name"] = "Juggernaut Band", ["prio"] = "LK Tank",},
 {["loot_id"] = "50647", ["loot_name"] = "Ahn'kahar Onyx Neckguard", ["prio"] = "UDK > Ret",},
@@ -755,8 +756,8 @@ Run_loot_table = {
 {["loot_id"] = "50062", ["loot_name"] = "Plague Scientist's Boots", ["prio"] = "Affli,Shadow > Mage,Boomy,Ele > Heal",},
 {["loot_id"] = "50694", ["loot_name"] = "Plaguebringer's Stained Pants", ["prio"] = "Affli,Shadow,Boomy,Ele > HPal",},
 {["loot_id"] = "50056", ["loot_name"] = "Plaguebringer's Stained Pants", ["prio"] = "Affli,Shadow,Boomy,Ele > HPal",},
-{["loot_id"] = "50702", ["loot_name"] = "Lingering Illness", ["prio"] = "Demo > Disc",},
-{["loot_id"] = "50063", ["loot_name"] = "Lingering Illness", ["prio"] = "Demo > Disc",},
+{["loot_id"] = "50702", ["loot_name"] = "Lingering Illness", ["prio"] = "Demo, Disc",},
+{["loot_id"] = "50063", ["loot_name"] = "Lingering Illness", ["prio"] = "Demo, Disc",},
 {["loot_id"] = "50697", ["loot_name"] = "Gangrenous Leggings", ["prio"] = "Combat",},
 {["loot_id"] = "50042", ["loot_name"] = "Gangrenous Leggings", ["prio"] = "Combat",},
 {["loot_id"] = "50696", ["loot_name"] = "Leather of Stitched Scourge Parts", ["prio"] = "FFA",},
@@ -807,8 +808,8 @@ Run_loot_table = {
 {["loot_id"] = "50033", ["loot_name"] = "Corpse-Impaling Spike", ["prio"] = "Affli,Mage,Shadow",},
 {["loot_id"] = "50677", ["loot_name"] = "Winding Sheet", ["prio"] = "UDK",},
 {["loot_id"] = "50019", ["loot_name"] = "Winding Sheet", ["prio"] = "UDK",},
-{["loot_id"] = "50678", ["loot_name"] = "Seal of Many Mouths", ["prio"] = "FFA",},
-{["loot_id"] = "50025", ["loot_name"] = "Seal of Many Mouths", ["prio"] = "FFA",},
+{["loot_id"] = "50678", ["loot_name"] = "Seal of Many Mouths", ["prio"] = "Combat",},
+{["loot_id"] = "50025", ["loot_name"] = "Seal of Many Mouths", ["prio"] = "Combat",},
 {["loot_id"] = "50682", ["loot_name"] = "Bile-Encrusted Medallion", ["prio"] = "LK Tank",},
 {["loot_id"] = "50023", ["loot_name"] = "Bile-Encrusted Medallion", ["prio"] = "LK Tank",},
 {["loot_id"] = "50353", ["loot_name"] = "Dislodged Foreign Object", ["prio"] = "Caster DPS",},
@@ -885,8 +886,8 @@ Run_loot_table = {
 {["loot_id"] = "50199", ["loot_name"] = "Leggings of Dying Candles", ["prio"] = "HolyPal",},
 {["loot_id"] = "50620", ["loot_name"] = "Coldwraith Links", ["prio"] = "Fury,FDK,BDK(DPS) > Unholy",},
 {["loot_id"] = "50187", ["loot_name"] = "Coldwraith Links", ["prio"] = "Fury,FDK,BDK(DPS) > Unholy",},
-{["loot_id"] = "50631", ["loot_name"] = "Nightmare Ender", ["prio"] = "Demolock > Disc",},
-{["loot_id"] = "50472", ["loot_name"] = "Nightmare Ender", ["prio"] = "Demolock > Disc",},
+{["loot_id"] = "50631", ["loot_name"] = "Nightmare Ender", ["prio"] = "Demolock, Disc",},
+{["loot_id"] = "50472", ["loot_name"] = "Nightmare Ender", ["prio"] = "Demolock, Disc",},
 {["loot_id"] = "50628", ["loot_name"] = "Frostbinder's Shredded Cape", ["prio"] = "DPS* > Healer*",},
 {["loot_id"] = "50205", ["loot_name"] = "Frostbinder's Shredded Cape", ["prio"] = "DPS* > Healer*",},
 {["loot_id"] = "50618", ["loot_name"] = "Frostbrood Sapphire Ring", ["prio"] = "Hunter > Fury",},
@@ -917,8 +918,8 @@ Run_loot_table = {
 {["loot_id"] = "49981", ["loot_name"] = "Fal'inrush, Defender of Quel'thalas", ["prio"] = "Hunter",},
 {["loot_id"] = "50736", ["loot_name"] = "Heaven's Fall, Kryss of a Thousand Lies", ["prio"] = "Rogue",},
 {["loot_id"] = "50426", ["loot_name"] = "Heaven's Fall, Kryss of a Thousand Lies", ["prio"] = "Rogue",},
-{["loot_id"] = "50734", ["loot_name"] = "Royal Scepter of Terenas II", ["prio"] = "Shadow,Boomy,Ele > Healer",},
-{["loot_id"] = "50428", ["loot_name"] = "Royal Scepter of Terenas II", ["prio"] = "Shadow,Boomy,Ele > Healer",},
+{["loot_id"] = "50734", ["loot_name"] = "Royal Scepter of Terenas II", ["prio"] = "Shadow,Boomy,Ele,Enha > Healer",},
+{["loot_id"] = "50428", ["loot_name"] = "Royal Scepter of Terenas II", ["prio"] = "Shadow,Boomy,Ele,Enha > Healer",},
 {["loot_id"] = "50732", ["loot_name"] = "Bloodsurge, Kel'thuzad's Blade of Agony", ["prio"] = "Mage, Affli > Demo",},
 {["loot_id"] = "50427", ["loot_name"] = "Bloodsurge, Kel'thuzad's Blade of Agony", ["prio"] = "Mage, Affli > Demo",},
 {["loot_id"] = "50731", ["loot_name"] = "Archus, Greatstaff of Antonidas", ["prio"] = "DPS > Healer > HPal",},
