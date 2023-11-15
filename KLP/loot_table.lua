@@ -1,11 +1,13 @@
-KLP_version = 7
+KLP_version = 8
 Run_loot_table = {
 ----- Ewü  2022/02/10 P2 Loot
 ----- Lome 2022/02/11 P3 Loot
 ----- Ewü  2022/05/29 P5 Loot
 ----- Lome/Brot 2023/01/19 WotLK P2 Loot
 ----- Ewü/Lome 2023/10/15 WotLK P4 Loot
+----- Ewü/Lome 2023/10/24 WotLK P4 Loot Anpassungen
 ----- Ewü/Lome 2023/11/15 WotLK P4 Loot Adjustments
+----- 
 -----SSC
 -----Trashloot
 {["loot_id"] = "40194", ["loot_name"] = "Blanketing Robes of Snow", ["prio"] = "Prio: Diszi > Resto Druid",},
@@ -651,15 +653,15 @@ Run_loot_table = {
 {["loot_id"] = "45874", ["loot_name"] = "Signet of Winter", ["prio"] = "Prio: Tanks > AH (!BOE!)",},
 {["loot_id"] = "45975", ["loot_name"] = "Cable of the Metrognome", ["prio"] = "Prio: Auction House (!BOE!)",},
 {["loot_id"] = "45680", ["loot_name"] = "Armbands of the Construct", ["prio"] = "Prio: Auction House (!BOE!)",},
------ TEST
+----- ICC
 {["loot_id"] = "50709", ["loot_name"] = "Bryntroll, the Bone Arbiter", ["prio"] = "Ret,BDK > Fury",},
 {["loot_id"] = "50415", ["loot_name"] = "Bryntroll, the Bone Arbiter", ["prio"] = "Ret,BDK > Fury",},
 {["loot_id"] = "50613", ["loot_name"] = "Crushing Coldwraith Belt", ["prio"] = "Mage,Lock,Shadow > Ele,Boomy > Healer",},
 {["loot_id"] = "49978", ["loot_name"] = "Crushing Coldwraith Belt", ["prio"] = "Mage,Lock,Shadow > Ele,Boomy > Healer",},
 {["loot_id"] = "50608", ["loot_name"] = "Frozen Bonespike", ["prio"] = "Disc",},
 {["loot_id"] = "49968", ["loot_name"] = "Frozen Bonespike", ["prio"] = "Disc",},
-{["loot_id"] = "50607", ["loot_name"] = "Frostbitten Fur Boots", ["prio"] = "Feral > Rogue,Ret,MM > SV",},
-{["loot_id"] = "49950", ["loot_name"] = "Frostbitten Fur Boots", ["prio"] = "Feral > Rogue,Ret,MM > SV",},
+{["loot_id"] = "50607", ["loot_name"] = "Frostbitten Fur Boots", ["prio"] = "Feral > Rogue,MM > SV,Ret",},
+{["loot_id"] = "49950", ["loot_name"] = "Frostbitten Fur Boots", ["prio"] = "Feral > Rogue,MM > SV,Ret",},
 {["loot_id"] = "50615", ["loot_name"] = "Handguards of Winter's Respite", ["prio"] = "FFA",},
 {["loot_id"] = "49979", ["loot_name"] = "Handguards of Winter's Respite", ["prio"] = "FFA",},
 {["loot_id"] = "50605", ["loot_name"] = "Snowserpent Mail Helm", ["prio"] = "Enha",},
@@ -698,8 +700,8 @@ Run_loot_table = {
 {["loot_id"] = "49993", ["loot_name"] = "Necrophotic Greaves", ["prio"] = "RestoS",},
 {["loot_id"] = "50645", ["loot_name"] = "Leggings of Northern Lights", ["prio"] = "Hunter",},
 {["loot_id"] = "49988", ["loot_name"] = "Leggings of Northern Lights", ["prio"] = "Hunter",},
-{["loot_id"] = "50639", ["loot_name"] = "Blood-Soaked Saronite Stompers", ["prio"] = "Fury > DPS DK",},
-{["loot_id"] = "49983", ["loot_name"] = "Blood-Soaked Saronite Stompers", ["prio"] = "Fury > DPS DK",},
+{["loot_id"] = "50639", ["loot_name"] = "Blood-Soaked Saronite Stompers", ["prio"] = "Fury > DPS DK,Ret",},
+{["loot_id"] = "49983", ["loot_name"] = "Blood-Soaked Saronite Stompers", ["prio"] = "Fury > DPS DK,Ret",},
 {["loot_id"] = "50650", ["loot_name"] = "Fallen Lord's Handguards", ["prio"] = "HolyPal",},
 {["loot_id"] = "49995", ["loot_name"] = "Fallen Lord's Handguards", ["prio"] = "HolyPal",},
 {["loot_id"] = "50640", ["loot_name"] = "Broken Ram Skull Helm", ["prio"] = "LK Tank",},
@@ -730,8 +732,8 @@ Run_loot_table = {
 {["loot_id"] = "50010", ["loot_name"] = "Waistband of Righteous Fury", ["prio"] = "HolyPal",},
 {["loot_id"] = "50659", ["loot_name"] = "Polar Bear Claw Bracers", ["prio"] = "DPS DK,Ret > Fury",},
 {["loot_id"] = "50002", ["loot_name"] = "Polar Bear Claw Bracers", ["prio"] = "DPS DK,Ret > Fury",},
-{["loot_id"] = "50653", ["loot_name"] = "Shadowvault Slayer's Cloak", ["prio"] = "Enh,Ret,Assa",},
-{["loot_id"] = "49998", ["loot_name"] = "Shadowvault Slayer's Cloak", ["prio"] = "Enh,Ret,Assa",},
+{["loot_id"] = "50653", ["loot_name"] = "Shadowvault Slayer's Cloak", ["prio"] = "Enh,Assa > Ret",},
+{["loot_id"] = "49998", ["loot_name"] = "Shadowvault Slayer's Cloak", ["prio"] = "Enh,Assa > Ret",},
 {["loot_id"] = "50657", ["loot_name"] = "Skeleton Lord's Circle", ["prio"] = "DPS DK,Fury,Ret",},
 {["loot_id"] = "49999", ["loot_name"] = "Skeleton Lord's Circle", ["prio"] = "DPS DK,Fury,Ret",},
 {["loot_id"] = "50664", ["loot_name"] = "Ring of Rapid Ascent", ["prio"] = "DPS > Healer",},
@@ -806,18 +808,18 @@ Run_loot_table = {
 {["loot_id"] = "50020", ["loot_name"] = "Raging Behemoth's Shoulderplates", ["prio"] = "FFA",},
 {["loot_id"] = "50684", ["loot_name"] = "Corpse-Impaling Spike", ["prio"] = "Affli,Mage,Shadow",},
 {["loot_id"] = "50033", ["loot_name"] = "Corpse-Impaling Spike", ["prio"] = "Affli,Mage,Shadow",},
-{["loot_id"] = "50677", ["loot_name"] = "Winding Sheet", ["prio"] = "UDK",},
-{["loot_id"] = "50019", ["loot_name"] = "Winding Sheet", ["prio"] = "UDK",},
 {["loot_id"] = "50678", ["loot_name"] = "Seal of Many Mouths", ["prio"] = "Combat",},
 {["loot_id"] = "50025", ["loot_name"] = "Seal of Many Mouths", ["prio"] = "Combat",},
+{["loot_id"] = "50677", ["loot_name"] = "Winding Sheet", ["prio"] = "UDK,Ret",},
+{["loot_id"] = "50019", ["loot_name"] = "Winding Sheet", ["prio"] = "UDK,Ret",},
 {["loot_id"] = "50682", ["loot_name"] = "Bile-Encrusted Medallion", ["prio"] = "LK Tank",},
 {["loot_id"] = "50023", ["loot_name"] = "Bile-Encrusted Medallion", ["prio"] = "LK Tank",},
 {["loot_id"] = "50353", ["loot_name"] = "Dislodged Foreign Object", ["prio"] = "Caster DPS",},
 {["loot_id"] = "50348", ["loot_name"] = "Dislodged Foreign Object", ["prio"] = "Caster DPS",},
 {["loot_id"] = "50708", ["loot_name"] = "Last Word", ["prio"] = "FFA",},
 {["loot_id"] = "50179", ["loot_name"] = "Last Word", ["prio"] = "FFA",},
-{["loot_id"] = "50707", ["loot_name"] = "Astrylian's Sutured Cinch", ["prio"] = "Ret > Rogue,Feral",},
-{["loot_id"] = "50067", ["loot_name"] = "Astrylian's Sutured Cinch", ["prio"] = "Ret > Rogue,Feral",},
+{["loot_id"] = "50707", ["loot_name"] = "Astrylian's Sutured Cinch", ["prio"] = "Rogue,Feral > Ret",},
+{["loot_id"] = "50067", ["loot_name"] = "Astrylian's Sutured Cinch", ["prio"] = "Rogue,Feral > Ret",},
 {["loot_id"] = "50705", ["loot_name"] = "Professor's Bloodied Smock", ["prio"] = "FFA",},
 {["loot_id"] = "50069", ["loot_name"] = "Professor's Bloodied Smock", ["prio"] = "FFA",},
 {["loot_id"] = "50704", ["loot_name"] = "Rigormortis", ["prio"] = "Mages, Locks",},
@@ -884,10 +886,10 @@ Run_loot_table = {
 {["loot_id"] = "50192", ["loot_name"] = "Scourge Reaver's Legplates", ["prio"] = "UDK",},
 {["loot_id"] = "50623", ["loot_name"] = "Leggings of Dying Candles", ["prio"] = "HolyPal",},
 {["loot_id"] = "50199", ["loot_name"] = "Leggings of Dying Candles", ["prio"] = "HolyPal",},
-{["loot_id"] = "50620", ["loot_name"] = "Coldwraith Links", ["prio"] = "Fury,FDK,BDK(DPS) > Unholy",},
-{["loot_id"] = "50187", ["loot_name"] = "Coldwraith Links", ["prio"] = "Fury,FDK,BDK(DPS) > Unholy",},
 {["loot_id"] = "50631", ["loot_name"] = "Nightmare Ender", ["prio"] = "Demolock, Disc",},
 {["loot_id"] = "50472", ["loot_name"] = "Nightmare Ender", ["prio"] = "Demolock, Disc",},
+{["loot_id"] = "50620", ["loot_name"] = "Coldwraith Links", ["prio"] = "Ret,Fury,DPS DK",},
+{["loot_id"] = "50187", ["loot_name"] = "Coldwraith Links", ["prio"] = "Ret,Fury,DPS DK",},
 {["loot_id"] = "50628", ["loot_name"] = "Frostbinder's Shredded Cape", ["prio"] = "DPS* > Healer*",},
 {["loot_id"] = "50205", ["loot_name"] = "Frostbinder's Shredded Cape", ["prio"] = "DPS* > Healer*",},
 {["loot_id"] = "50618", ["loot_name"] = "Frostbrood Sapphire Ring", ["prio"] = "Hunter > Fury",},
@@ -931,4 +933,6 @@ Run_loot_table = {
 {["loot_id"] = "50453", ["loot_name"] = "Ring of Rotting Sinew", ["prio"] = "*BOE* Auction House",},
 {["loot_id"] = "50447", ["loot_name"] = "Harbinger's Bone Band", ["prio"] = "*BOE* Auction House",},
 {["loot_id"] = "50452", ["loot_name"] = "Wodin's Lucky Necklace", ["prio"] = "*BOE* Any physical DPS",},
+{["loot_id"] = "50274", ["loot_name"] = "Shadowfrost Shard", ["prio"] = "lol",},
+{["loot_id"] = "49623", ["loot_name"] = "Shadowmourne", ["prio"] = "lol",},
 }
